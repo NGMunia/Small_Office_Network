@@ -28,7 +28,7 @@ Images used:
 * Ubuntu: `<https://ubuntu.com/desktop/>`_
 * `GNS3 <https://gns3.com/software/download>`_
 
-Python Dependencies
+Python Dependencies:
 --------------------
 .. code-block:: bash
 
