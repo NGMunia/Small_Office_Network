@@ -30,7 +30,6 @@ Images used:
 
 Python Dependencies
 --------------------
-Netmiko
 .. code-block:: bash
 
    pip install netmiko
