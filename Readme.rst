@@ -29,7 +29,8 @@ Images used:
 
 
 Python Dependencies:
-Netmiko, Rich
+Netmiko
 .. code-block:: bash
+
    pip install netmiko
-   pip install rich
+  
