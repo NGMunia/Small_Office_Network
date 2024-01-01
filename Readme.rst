@@ -33,4 +33,5 @@ Python Dependencies
 .. code-block:: bash
 
    pip install netmiko
+   pip install rich
   
