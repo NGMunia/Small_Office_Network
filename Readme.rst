@@ -26,8 +26,7 @@ Images used:
 * IDS: Ostinato Wireshark Docker
 * Windows Server: Win2k16_14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO
 * Ubuntu: `<https://ubuntu.com/desktop/>`_
-
-`GNS3 <https://gns3.com/software/download>`_
+* `GNS3 <https://gns3.com/software/download>`_
 
 Python Dependencies
 --------------------
