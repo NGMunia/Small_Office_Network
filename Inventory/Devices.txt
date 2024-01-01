@@ -1,0 +1,153 @@
+
+---------------HQ-LAN-ROUTER---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-LAN-ROUTER
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048003']
+config_register : 0x0
+    mac_address : []
+      restarted : 08:58:14 UTC Mon Jan 1 2024
+
+
+---------------HQ-VPN-ROUTER---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-VPN-ROUTER
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048006']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------BRANCH-VPN-ROUTER---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : BRANCH-VPN-ROUTER
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048002']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------HQ-FIREWALL-1---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-FIREWALL-1
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048005']
+config_register : 0x0
+    mac_address : []
+      restarted : 08:58:19 UTC Mon Jan 1 2024
+
+
+---------------HQ-FIREWALL-2---------------
+
+ software_image : I86BI_LINUX-ADVENTERPRISEK9-M
+        version : 15.7(3)M2
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-FIREWALL-2
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_LinuxL3-AdvEnterpriseK9-M2_157_3_May
+       hardware : []
+         serial : ['2048004']
+config_register : 0x0
+    mac_address : []
+      restarted : 08:58:24 UTC Mon Jan 1 2024
+
+
+---------------HQ-LAN-SWITCH---------------
+
+ software_image : I86BI_LINUXL2-ADVENTERPRISEK9-M
+        version : 15.2(CML_NIGHTLY_20180510)FLO_DSGS7
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-LAN-SWITCH
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_linux_l2-adventerprisek9-ms.SSA.high_
+       hardware : []
+         serial : ['2048008']
+config_register : 0x0
+    mac_address : []
+      restarted : 
+
+
+---------------HQ-ISP-SWITCH---------------
+
+ software_image : I86BI_LINUXL2-ADVENTERPRISEK9-M
+        version : 15.2(CML_NIGHTLY_20180510)FLO_DSGS7
+        release : 
+         rommon : Bootstrap
+       hostname : HQ-ISP-SWITCH
+         uptime : 4 hours, 33 minutes
+   uptime_years : 
+   uptime_weeks : 
+    uptime_days : 
+   uptime_hours : 4
+ uptime_minutes : 33
+  reload_reason : Unknown reason
+  running_image : /opt/gns3/images/IOU/i86bi_linux_l2-adventerprisek9-ms.SSA.high_
+       hardware : []
+         serial : ['2048007']
+config_register : 0x0
+    mac_address : []
+      restarted : 
