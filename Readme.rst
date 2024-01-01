@@ -28,7 +28,8 @@ Images used:
 * Ubuntu: Ubuntu server VM
 
 
-Python Dependencies:
+Python Dependencies
+--------------------
 Netmiko
 .. code-block:: bash
 
