@@ -14,7 +14,7 @@ ISP-SW is configured with SPAN to monitor ingress/egress traffic with the IDS.
 Windows server provides services for DHCP, DNS
 Ubuntu servers as the automation server
 
-I've created simple API GET requests
+I have created simple API GET requests
   * Router health
   * Firewall stateful status
   * VLANs on a switch
