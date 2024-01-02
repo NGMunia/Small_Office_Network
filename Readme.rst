@@ -42,7 +42,7 @@ Python Dependencies:
 Initializing Uvicorn server:
 ----------------------------
 
-.. Code-block:: bash
+.. code-block:: bash
    uvicorn APIs:app --host 192.168.101.100 --reload
 
 
