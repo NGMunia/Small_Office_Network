@@ -43,6 +43,6 @@ Initializing Uvicorn server:
 ----------------------------
 
 .. code-block:: bash
-   uvicorn APIs:app --host 192.168.101.100 --reload
+   uvicorn APIs:app --host <ip addres of server> --reload
 
 
