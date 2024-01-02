@@ -14,6 +14,8 @@ ISP-SW is configured with SPAN to monitor ingress/egress traffic with the IDS.
 Windows server provides services for DHCP, DNS
 Ubuntu servers as the automation server
 
+I've created simple API GET requests (Device health)
+
 
 .. Figure:: /Inventory/Topology.png
    :align: Center
@@ -34,4 +36,10 @@ Python Dependencies:
 
    pip install netmiko
    pip install rich
-  
+   pip install fastapi[all]
+
+
+Initializing Uvicorn server
+.. Code-block:: bash
+   uvicorn APIs:app --host 192.168.101.100 --reload
+

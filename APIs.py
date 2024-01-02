@@ -1,0 +1,36 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+from netmiko import ConnectHandler
+from rich import print as rp
+from Network.Devices import Routers, Firewalls, Switches
+
+app = FastAPI()
+
+#Device health API for Routers
+@app.get('/Get/Devices/Routers/{Device_ID}/Health')
+def Routerhealth(Device_ID: str):
+    device = Routers[Device_ID]
+    conn = ConnectHandler(**device)
+    conn.enable()
+    command = conn.send_command('show version',use_textfsm=True)
+    return command
+
+
+#Device health API for Firewalls:
+@app.get('/Get/Devices/Firewalls/{Device_ID}/Health')
+def Routerhealth(Device_ID: str):
+    device = Firewalls[Device_ID]
+    conn = ConnectHandler(**device)
+    conn.enable()
+    command = conn.send_command('show version',use_textfsm=True)
+    return command
+
+
+#Device health API for Switches:
+@app.get('/Get/Devices/Switches/{Device_ID}/Health')
+def Routerhealth(Device_ID: str):
+    device = Firewalls[Device_ID]
+    conn = ConnectHandler(**device)
+    conn.enable()
+    command = conn.send_command('show version',use_textfsm=True)
+    return command
