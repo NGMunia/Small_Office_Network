@@ -4,6 +4,7 @@ SMALL OFFICE NETWORK:
 
 The topology design employs Small branch network with a VPN (IPSec VTI) connection to a branch office.
 Device R1-VPN and R2-VPN provides VPN connection 
+
 .. code-block:: bash
    interface Tunnel10
    ip address <Tunnel IP address and mask>
