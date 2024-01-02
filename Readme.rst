@@ -40,33 +40,6 @@ Branch network internet traffic is backhauled  to  HQ through firewalls for stat
  
 
 
-
-The Branch Network has also been configured with QoS as follows:
-* Mission-Critical traffic is marked with  dscp af31 and allowed a CIR of 512kbps.
-* Social media traffic is policed to 1Mbps CIR
-
-.. code-block:: bash
-   
-   class-map match-any Mission-critical-class
-     match protocol dhcp
-     match protocol dns
-   class-map match-any Social-media-class
-     match protocol twitter
-     match protocol facebook
-     match protocol instagram
-   !
-   policy-map Network-Policy
-     class Social-media-class
-       police cir 1000000 conform-action transmit  exceed-action drop 
-       set dscp af13
-     class Mission-critical-class
-       set dscp af31
-       police cir 256000 conform-action transmit  exceed-action set-dscp-transmit af32 violate-action set-dscp-transmit af33
-  
-
-
-
-
 FW1 and FW2 provides active/standby failover (through HSRP) towards Internet connection.
 ISP-SW is configured with SPAN to monitor ingress/egress traffic with the IDS.
 
