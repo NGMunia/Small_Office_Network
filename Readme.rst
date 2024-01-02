@@ -6,7 +6,7 @@ The topology design employs Small branch network with a VPN (IPSec VTI) connecti
 Device R1-VPN and R2-VPN provides VPN connection 
 
 .. code-block:: bash
-   
+
    interface Tunnel10
    ip address /Tunnel IP address and mask/
    tunnel source Ethernet0/1
@@ -19,21 +19,23 @@ FW1 and FW2 provide zone-based firewall connection between LAN and Internet conn
 Branch network internet traffic is backhauled  to  HQ through firewalls for stateful inspection.
 
 .. code-block:: bash
+
    class-map type inspect match-any Private-Internet-class
-   match protocol tcp
-   match protocol udp
-   match protocol icmp
+     match protocol tcp
+     match protocol udp
+     match protocol icmp
    !
    policy-map type inspect Private-Internet-Policy
-   class type inspect Private-Internet-class
-   inspect 
-   class class-default
-   drop
+     class type inspect Private-Internet-class
+       inspect 
+     class class-default
+       drop
    !
    zone security Private
    zone security Internet
+   !
    zone-pair security Private-Internet-zone source Private destination Internet
-   service-policy type inspect Private-Internet-Policy
+     service-policy type inspect Private-Internet-Policy
  
 
 The Branch Network has also been configured with QoS as follows:
