@@ -15,9 +15,8 @@ Firewalls ={
                       'secret': secret,
                       'password': password,
                       'ip':'10.1.255.3'
-                    }
-            
-                }
+                    }         
+           }
 Routers =  {
             'R1-LAN':{
                       'device_type':'cisco_ios',
