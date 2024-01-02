@@ -16,7 +16,7 @@ Ubuntu servers as the automation server
 
 I have created simple API GET requests
   * Router health
-  * Firewall stateful status
+  * Firewall stateful inspection status
   * VLANs on a switch
 
 
