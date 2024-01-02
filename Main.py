@@ -53,4 +53,6 @@ for devices in chain(Routers.values(), Firewalls.values(),Switches.values()):
     rp(f'[cyan]---------------{output["hostname"]}---------------[/cyan]\n')
     for key, value in output.items():
         rp((f'{key:>15} : {value}'))
-    print('\n')       
+    print('\n')      
+    
+     
