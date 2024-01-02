@@ -15,6 +15,7 @@ Device R1-VPN and R2-VPN provides VPN connection
    tunnel protection ipsec profile crypt_profile
 
 
+
 FW1 and FW2 provide zone-based firewall connection between LAN and Internet connection.
 Branch network internet traffic is backhauled  to  HQ through firewalls for stateful inspection.
 
@@ -38,18 +39,20 @@ Branch network internet traffic is backhauled  to  HQ through firewalls for stat
      service-policy type inspect Private-Internet-Policy
  
 
+
 The Branch Network has also been configured with QoS as follows:
 * Mission-Critical traffic is marked with  dscp af31 and allowed a CIR of 512kbps.
 * Social media traffic is policed to 1Mbps CIR
+
 .. code-block:: bash
    
    class-map match-any Mission-critical-class
-   match protocol dhcp
-   match protocol dns
+     match protocol dhcp
+     match protocol dns
    class-map match-any Social-media-class
-   match protocol twitter
-   match protocol facebook
-   match protocol instagram
+     match protocol twitter
+     match protocol facebook
+     match protocol instagram
    !
    policy-map Network-Policy
      class Social-media-class
