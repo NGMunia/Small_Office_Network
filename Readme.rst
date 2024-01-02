@@ -10,29 +10,29 @@ Device R1-VPN and R2-VPN provides VPN connection
    ip address <Tunnel IP address and mask>
    tunnel source Ethernet0/1
    tunnel mode ipsec ipv4
-   tunnel destination <destination IP of the peer router>
+   tunnel destination /destination IP of the peer router/
    tunnel protection ipsec profile crypt_profile
 
 
 FW1 and FW2 provide zone-based firewall connection between LAN and Internet connection.
 Branch network internet traffic is backhauled  to  HQ through firewalls for stateful inspection.
 
-..  code-block:: bash
+.. code-block:: bash
    class-map type inspect match-any Private-Internet-class
    match protocol tcp
    match protocol udp
    match protocol icmp
    !
    policy-map type inspect Private-Internet-Policy
-    class type inspect Private-Internet-class
-     inspect 
-    class class-default
-     drop
+   class type inspect Private-Internet-class
+   inspect 
+   class class-default
+   drop
    !
    zone security Private
    zone security Internet
    zone-pair security Private-Internet-zone source Private destination Internet
-     service-policy type inspect Private-Internet-Policy
+   service-policy type inspect Private-Internet-Policy
  
 
 The Branch Network has also been configured with QoS as follows:
