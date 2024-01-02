@@ -17,10 +17,10 @@ Device R1-VPN and R2-VPN provides VPN connection
 .. code-block:: bash
 
    interface Tunnel10
-   ip address /Tunnel IP address and mask/
+   ip address <Tunnel IP address and mask>
    tunnel source Ethernet0/1
    tunnel mode ipsec ipv4
-   tunnel destination /destination IP of the peer router/
+   tunnel destination <destination IP of the peer router>
    tunnel protection ipsec profile crypt_profile
 
 
