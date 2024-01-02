@@ -7,7 +7,9 @@ SMALL OFFICE NETWORK:
 .. Figure:: /Inventory/Topology.png
    :align: Center
 
-   
+
+
+
 
 The topology design employs Small branch network with a VPN (IPSec VTI) connection to a branch office.
 Device R1-VPN and R2-VPN provides VPN connection 
