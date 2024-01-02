@@ -1,0 +1,1 @@
+ssh -oHostKeyAlgorithms=+ssh-rsa -o KexAlgorithms=diffie-hellman-group14-sha1 Automation@192.168.200.1
