@@ -81,9 +81,8 @@ Python Dependencies:
    pip install fastapi[all]
 
 
-.. note:: This is a note admonition
-
-   TextFSM is a Python module that templatizes human-readable into structured machine-readable text
+.. note:: 
+   :admonition: TextFSM is a Python module that templatizes human-readable into structured machine-readable text
    
 
 
