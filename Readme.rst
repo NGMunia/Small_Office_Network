@@ -80,10 +80,9 @@ Python Dependencies:
    pip install rich
    pip install fastapi[all]
 
+   TextFSM is a Python module that templatizes human-readable into structured machine-readable text
 
-.. note:: 
-   :admonition: TextFSM is a Python module that templatizes human-readable into structured machine-readable text
-   
+
 
 
 Initializing Uvicorn server:
